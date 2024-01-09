@@ -43,7 +43,7 @@ local function is_valid_nums(nums)
     end
     for i = 1, 4 do
         local num = nums[i]
-        if not num or num < 1 or num > 13 then
+        if not num or num < 1 then
             return false
         end
         if math.floor(num) ~= num then
